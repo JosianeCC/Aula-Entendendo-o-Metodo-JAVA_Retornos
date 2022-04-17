@@ -1,0 +1,21 @@
+package assunto.retorno;
+
+public class Quadrilatero {
+    public static double area(double lado){
+        return lado * lado;
+    }
+    public static double area(double lado1, double lado2){
+        return lado1 * lado2;
+    }
+    public static double area(double baseMenos, double baseMaior, double altura){
+        return ((baseMenos+baseMaior)* altura)/ 2;
+    }
+    public static void xpto() {
+        System.out.println("Antes");
+        return;
+    }
+    public static double abc(){
+        return 1.6;
+    }
+
+}
